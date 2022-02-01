@@ -145,7 +145,7 @@ elif input_num == 26:  #  Возведите число А в натуральн
     a = int(input('A = '))
     b = int(input('B = '))
     result = 1
-    for i in range(1, b + 1):
+    for i in range(b):
         result *= a
     print(f'{a} в степени {b}: {result}')
 
