@@ -3,9 +3,6 @@
 import os
 import random
 
-def find_move():
-    return move
-
 def print_field():
     global field
     os.system('cls')
